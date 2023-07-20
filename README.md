@@ -18,7 +18,7 @@ make .venv_done
 ```
 
 ### Training
-Fast-AT is much faster than standard PGD AT. For RobArch-S, Fast-AT takes ~1.5 days on 2 Nvidia A100s, but ~5 days on 4 Nvidia A100s.
+Fast-AT is much faster than standard PGD AT. For RobArch-S, Fast-AT takes ~1.5 days on 2 Nvidia A100s.
 #### Torchvision models - Fast AT (e.g., ResNet-50)
 ```bash
 make BASE=<imagenet root dir> WANDB_ACCOUNT=<name> experiments/Torch_ResNet50/.done_test_pgd
