@@ -61,6 +61,13 @@ make BASE=<imagenet root dir> WANDB_ACCOUNT=<name> experiments/PGDAT_RobArch_S/.
 ### Citation
 
 ```bibtex
+@article{peng2023robust,
+  title={Robust Principles: Architectural Design Principles for Adversarially Robust CNNs},
+  author={Peng, ShengYun and Xu, Weilin and Cornelius, Cory and Hull, Matthew and Li, Kevin and Duggal, Rahul and Phute, Mansi and Martin, Jason and Chau, Duen Horng},
+  journal={arXiv preprint arXiv:2308.16258},
+  year={2023}
+}
+
 @misc{peng2023robarch,
       title={RobArch: Designing Robust Architectures against Adversarial Attacks}, 
       author={ShengYun Peng and Weilin Xu and Cory Cornelius and Kevin Li and Rahul Duggal and Duen Horng Chau and Jason Martin},
